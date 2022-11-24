@@ -1,0 +1,129 @@
+:root{
+    font-family: 'Orbitron';
+}
+.container{
+    width: 75rem;
+    margin-inline: auto;
+}
+.navbar-container{
+    margin: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+    gap: 3rem
+}
+.list-item{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-container{
+    position: relative;
+}
+.hero-container > div:first-of-type{
+    top: 0;
+    position: absolute;
+}
+.hero-container div:first-of-type > img{
+    height: 500px;
+}
+.square > img{
+    padding-top: 10rem;
+    padding-left: 4.5rem;
+}
+.globe{
+    left: 45rem;
+    position: absolute;
+}
+.globe img, .star img{
+    width: 60%
+}
+.hero-container > span:nth-child(2){
+    top: 3rem;
+    right: 1rem;
+    position: absolute;
+}
+.hero-container > span:nth-child(3){
+    left: 35rem;
+    bottom: 4rem;
+    position: absolute;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    left: 50%;
+    position: absolute;
+}
+/* .hero-container-right > div{
+    top: 10rem;
+    position: absolute;
+} */
+.icons{
+    display: flex;
+    gap: 10px
+}
+.hero-heading{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.hero-description{
+    font-size: 0.85rem;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #b4b4b4;
+    padding-bottom: 3rem;
+}
+.hero-container-right div:first-of-type{
+    display: flex;
+    gap: 1.5rem
+}
+.button-email, .button-join, .nav-button{
+    border-radius: 1rem;
+    border: 2px solid black;
+    font-size: 1.5rem;
+}
+.button-email{
+    width: 15rem;
+    height: 2.5rem;
+    background-color: #fff;
+    font-weight: 600;
+    font-family: 'Orbitron';
+}
+.button-join{
+    width: 10rem;
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Orbitron';
+}
+.nav-button{
+    margin: 1rem;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #fff;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #818181;
+}
+.contact-heading{
+    margin-top: 5rem;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #818181;
+    text-align: center;
+    margin-bottom: 1rem;
+}
